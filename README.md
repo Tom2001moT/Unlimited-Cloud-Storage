@@ -1,11 +1,21 @@
-<div align="center">
+# Unlim Cloud (Android)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Native Android application for **Unlim Cloud** built with Kotlin and Jetpack Compose.
 
-  <h1>Built with AI Studio</h2>
+Unlim Cloud offers unlimited cloud storage powered by Telegram ID storage, file explorer, gallery management, automatic update tracking from GitHub, and community donation channels.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Features
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+- **Telegram Storage Integration:** Connect via Telegram ID for unlimited cloud file and media storage.
+- **Files Explorer:** Browse, filter (Documents, Media, Archives, Other), search, upload, share, and manage cloud files.
+- **Media Gallery:** Grid gallery dedicated to photos and video playback/previews.
+- **Update Manager:** Live GitHub version check against official repositories (`https://raw.githubusercontent.com/inulute/unlim-cloud/main/package.json`) with direct release downloads.
+- **Support & Donations:** Quick access to donate channels (Official Vercel portal, Ko-fi, PayPal, and UPI).
+- **Web Portal View:** Integrated browser client for the Unlim Cloud web application.
 
-</div>
+## Tech Stack
+
+- **Kotlin & Jetpack Compose (Material Design 3)**
+- **Coroutines & StateFlow**
+- **OkHttp & Kotlinx Serialization** for GitHub update checks
+- **Coil** for image loading
